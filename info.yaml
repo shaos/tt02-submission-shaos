@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:  348547708215099988        # If using wokwi, set this to your project's ID
+  wokwi_id:  348540666182107731      # If using wokwi, set this to your project's ID
 #  source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
 #    - counter.v
 #    - decoder.v
@@ -16,8 +16,8 @@ project:
 documentation: 
   author:       "Shaos"      # Your name
   discord:      "Shaos"      # Your discord handle
-  title:        "Test1"      # Project title
-  description:  "Testing DFFSR"      # Short description of what your project does
+  title:        "Test2"      # Project title
+  description:  "Testing Flip-Flops"      # Short description of what your project does
   how_it_works: "no idea :)"      # Longer description of how the project works
   how_to_test:  "change inputs and see outputs :)"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  "logic analyzer"      # Describe any external hardware needed
@@ -27,13 +27,13 @@ documentation:
   picture:      ""      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
     - clock
-    - reset / D
+    - D (no reset)
     - C
     - S
     - R
-    - TMP1
-    - TMP2
-    - TMP3
+    - NAND1
+    - NAND2
+    - XOR
   outputs:
     - segment a         # a description of what the outputs do
     - segment b
