@@ -27,13 +27,13 @@ documentation:
   picture:      "wokwi-sch.png"      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
     - clock
-    - D (no reset)
+    - D # 1st data for many flops
     - C
     - S
     - R
     - NAND1
     - NAND2
-    - XOR
+    - Muller # 2nd data input for C-gate
   outputs:
     - segment a         # a description of what the outputs do
     - segment b
