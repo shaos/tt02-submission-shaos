@@ -24,7 +24,7 @@ documentation:
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required) we are expecting max clock frequency to be ~6khz. Provided on input 0.
-  picture:      "wokwi-sch.png"      # relative path to a picture in your repository
+  picture:      "wokwi-sch-1.png"      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
     - clock
     - D # 1st data for many flops
